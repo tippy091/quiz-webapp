@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61431085-910f-47a3-8ddd-2db128f72af7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/Admin.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/layout/NavBar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/question/AddQuestion.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/question/UpdateQuestion.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/quiz/GetAllQuiz.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/quiz/Quiz.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/quiz/QuizResult.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/quiz/QuizStepper.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/Admin.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/layout/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/layout/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/question/AddQuestion.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/question/UpdateQuestion.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/quiz/GetAllQuiz.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/quiz/Quiz.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/quiz/QuizResult.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/quiz/QuizStepper.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/utils/AnswerOptions.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/utils/QuizService.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/utils/Subjects.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz-online/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz-online/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz-online/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz-online/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz-online/pom.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2voIWsx3MlAuHSYTRaFrr34vYhs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61431085-910f-47a3-8ddd-2db128f72af7" name="Changes" comment="" />
+      <created>1744805034482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744805034482</updated>
+      <workItem from="1744805035804" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

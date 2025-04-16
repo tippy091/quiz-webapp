@@ -1,0 +1,45 @@
+{
+    "footer": {
+        "items": [
+            {
+                "title": "Need Help",
+                "list": [
+                    {
+                        "label": "Contact Us",
+                        "path": "/contact-us"
+                    },
+                    {
+                        "label": "Track Orders",
+                        "path": "/contact-us"
+                    },
+                    {
+                        "label": "Return & Refunds",
+                        "path": "/contact-us"
+                    },
+                    {
+                        "label": "FAQ's",
+                        "path": "/faq"
+                    }
+                ]
+            },
+            {
+                "title": "Location",
+                "list": [
+                  {
+                    "label": "CS1: 45 Nguyễn Khắc Nhu P Cô Giang Quận 1",
+                    "path": "https://www.google.com/maps?s=web&rlz=1C5CHFA_enVN1090VN1090&lqi=ChbEkOG6oEkgSOG7jEMgVsSCTiBMQU5HSJzYhCtaMhAAEAEQAhADGAAYARgCGAMiFsSR4bqhaSBo4buNYyB2xINuIGxhbmcqBAgCEAMyAnZpkgEScHJpdmF0ZV91bml2ZXJzaXR5qgE-EAEyHhABIho46Ks1NJe8oyN8CFrTCwnMZCGp__FlcvIASDIaEAIiFsSR4bqhaSBo4buNYyB2xINuIGxhbmc&vet=12ahUKEwjqqoqN2tyMAxVg4zgGHd-8GZ4Q1YkKegQIJxAB..i&cs=1&um=1&ie=UTF-8&fb=1&gl=vn&sa=X&geocode=KRs3hq0WL3UxMfKxCJWMJZ2U&daddr=45+Nguy%E1%BB%85n+Kh%E1%BA%AFc+Nhu,+Ph%C6%B0%E1%BB%9Dng+C%C3%B4+Giang,+Qu%E1%BA%ADn+1,+H%E1%BB%93+Ch%C3%AD+Minh+700000"
+                  }, 
+                  {
+                    "label": "233A Phan Văn Trị P11 Quận Bình Thạnh",
+                    "path": "https://www.google.com/maps?s=web&rlz=1C5CHFA_enVN1090VN1090&lqi=ChbEkOG6oEkgSOG7jEMgVsSCTiBMQU5HSIjztunlgICACFoyEAAQARACEAMYABgBGAIYAyIWxJHhuqFpIGjhu41jIHbEg24gbGFuZyoECAIQAzICdmmSAQp1bml2ZXJzaXR5qgE-EAEyHhABIho46Ks1NJe8oyN8CFrTCwnMZCGp__FlcvIASDIaEAIiFsSR4bqhaSBo4buNYyB2xINuIGxhbmc&vet=12ahUKEwjqqoqN2tyMAxVg4zgGHd-8GZ4Q1YkKegQIKhAB..i&cs=1&um=1&ie=UTF-8&fb=1&gl=vn&sa=X&geocode=KRfW1R7qKHUxMU8Mj23yhFng&daddr=233A+%C4%90.+Phan+V%C4%83n+Tr%E1%BB%8B,+Ph%C6%B0%E1%BB%9Dng+11,+B%C3%ACnh+Th%E1%BA%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh"
+                  },
+                  {
+                    "label": "69/68 Đặng Thuỳ Trâm P13 Quận Bình Thạnh",
+                    "path": "https://www.google.com/maps/dir//69%2F68+%C4%90.+%C4%90%E1%BA%B7ng+Thu%E1%BB%B3+Tr%C3%A2m,+Ph%C6%B0%E1%BB%9Dng+13,+B%C3%ACnh+Th%E1%BA%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh+70000/@10.8275287,106.6176239,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x317528f4a62fce9b:0xc99902aa1e26ef02!2m2!1d106.7000258!2d10.8275396?entry=ttu&g_ep=EgoyMDI1MDQxMy4wIKXMDSoASAFQAw%3D%3D"
+                  }
+                ]
+            }
+        ],
+        "copyright": "Copyright © 2025 E-Learning Van Lang by Louis Pham"
+    }
+}
