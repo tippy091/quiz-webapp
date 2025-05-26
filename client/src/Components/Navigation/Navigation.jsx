@@ -1,62 +1,101 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./Navigation.css";
 import VLULogo from "../../assets/vlu-logo.png";
+import { useSelector } from "react-redux";
 
 const Navigation = () => {
+  const { isLoggedIn, user } = useSelector((state) => state.userAuthority);
+
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow flex items-center py-3 px-20 justify-between gap-30">
+    <nav className=" bg-[#2051C7] top-0 left-0 w-full z-50 shadow flex items-center py-3 px-20 justify-between gap-30">
       <div className="nav-logo">
-        <img className="w-[150px]" src={VLULogo} alt="Van Lang University" />
+        <Link to="/">
+          <img
+            className="h-[30px]"
+            src="https://datax-talent.basecdn.net/baseinc/logo.png"
+          />
+        </Link>
       </div>
       <div className="flex flex-wrap items-center gap-5 flex-1">
-        <ul className="flex gap-14 text-gray-600 text-[17px]">
-          <li className="hover:text-black">
+        <ul className="flex gap-14 text-white text-[13px]">
+          <li className="hover:underline">
             <NavLink
               to="/"
               className={({ isActive }) => (isActive ? "active-link" : "")}
             >
-              HOME
+              SẢN PHẨM
             </NavLink>
           </li>
-          <li className="hover:text-black">
+          <li className="hover:underline">
             <NavLink
               to="/men"
               className={({ isActive }) => (isActive ? "active-link" : "")}
             >
-              DASHBOARD
+              GIẢI PHÁP
             </NavLink>
           </li>
-          <li className="hover:text-black">
+          <li className="hover:underline">
             <NavLink
               to="/women"
               className={({ isActive }) => (isActive ? "active-link" : "")}
             >
-              MY COURSES
+              KHÁCH HÀNG
+            </NavLink>
+          </li>
+          <li className="hover:underline">
+            <NavLink
+              to="/men"
+              className={({ isActive }) => (isActive ? "active-link" : "")}
+            >
+              CÔNG TY
+            </NavLink>
+          </li>
+          <li className="hover:underline">
+            <NavLink
+              to="/women"
+              className={({ isActive }) => (isActive ? "active-link" : "")}
+            >
+              RESOURCES
             </NavLink>
           </li>
         </ul>
       </div>
-      <div className="flex flex-wrap items-center">
-        <ul className="flex">
-          <li className="text-black  hover:bg-slate-100 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm focus:outline-none px-5 py-1">
-            <NavLink
-              to={"/auth/login"}
-              className={({ isActive }) => (isActive ? "active-link" : "")}
-            >
-              LOGIN
-            </NavLink>
-          </li>
-          <li className="text-black hover:bg-slate-100 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm focus:outline-none px-5 py-1">
-            <NavLink
-              to={"/auth/register"}
-              className={({ isActive }) => (isActive ? "active-link" : "")}
-            >
-              SIGN UP
-            </NavLink>
-          </li>
-        </ul>
-      </div>
+      {isLoggedIn ? (
+        <div className="flex flex-wrap text-white  items-center">
+          <ul className="flex">
+            <li className=" hover:underline">
+              <NavLink
+                to={"/auth/login"}
+                className={({ isActive }) => (isActive ? "active-link" : "")}
+              >
+                PROFILE
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+      ) : (
+        <div className="flex text-white flex-wrap items-center">
+          <ul className="flex gap-5 text-white text-[13px]">
+            <li className="hover:underline">
+              <NavLink
+                to={"/auth/login"}
+                className={({ isActive }) => (isActive ? "active-link" : "")}
+              >
+                ĐĂNG NHẬP
+              </NavLink>
+            </li>
+            <li className="hover:underline">
+              <NavLink
+                to={"/auth/register"}
+                className={({ isActive }) => (isActive ? "active-link" : "")}
+              >
+                ĐĂNG KÝ
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+      )}
     </nav>
   );
 };

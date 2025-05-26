@@ -4,49 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ff78ef7-6f9c-4a2e-9e9d-a3d64b8beda2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/Admin.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/layout/NavBar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/question/AddQuestion.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/question/UpdateQuestion.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/quiz/GetAllQuiz.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/quiz/Quiz.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/quiz/QuizResult.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/components/quiz/QuizStepper.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/Admin.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/layout/Footer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/layout/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/question/AddQuestion.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/question/UpdateQuestion.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/quiz/GetAllQuiz.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/quiz/Quiz.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/quiz/QuizResult.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/components/quiz/QuizStepper.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/utils/AnswerOptions.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/utils/QuizService.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/utils/Subjects.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/quiz-online/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+    <list default="true" id="157320b8-d186-473a-935b-0dd36df58860" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/config/JWTTokenHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/controllers/UserDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/RegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/RegistrationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/UserDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/UserToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/VerificationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/entity/Authority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/helper/VerificationCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/repository/AuthorityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/repository/UserDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/service/AuthorityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/service/CustomUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/service/RegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/Components/Navigation/Navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Components/Navigation/Navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/Components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Components/Navigation/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/Components/Sections/AnnouncementSection/AnnouncementSection.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/Components/Sections/BannerSection/BannerSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Components/Sections/BannerSection/BannerSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/Components/Sections/CategorySection/CategorySection.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/Pages/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Pages/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/Pages/Register/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Pages/Register/Register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/QuizOnlineApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/controller/QuestionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/repository/QuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/service/IQuestionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/service/QuestionServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/devlearn/quizonline/QuizOnlineApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,107 +79,70 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2t1dtrOtfj79gvcOdpCza2rDuNq" />
+  <component name="ProjectId" id="2voc2qKQWkPSkshbdriqiEhpMbL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.com.devlearn.quizonline in quiz-online.executor": "Debug",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "Spring Boot.QuizOnlineApplication.executor": "Run",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/happy091/Desktop/Workspace/JAVA Project/quiz-webapp/quiz-online",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.3448276",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthenticationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/happy091/Desktop/Workspace/JAVA Project/quiz-webapp/server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Spring Boot.QuizOnlineApplication">
-    <configuration name="com.devlearn.quizonline in quiz-online" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="quiz-online" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devlearn.quizonline.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devlearn.quizonline" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuizOnlineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="graalvm-jdk-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+}</component>
+  <component name="RunManager">
+    <configuration name="AuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="quiz-online" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.devlearn.quizonline.QuizOnlineApplication" />
+      <module name="user_authentication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.devlearn.server.AuthenticationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.com.devlearn.quizonline in quiz-online" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5ff78ef7-6f9c-4a2e-9e9d-a3d64b8beda2" name="Changes" comment="" />
-      <created>1739523731257</created>
+      <changelist id="157320b8-d186-473a-935b-0dd36df58860" name="Changes" comment="" />
+      <created>1744814662609</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1739523731257</updated>
-      <workItem from="1739523732270" duration="4745000" />
-      <workItem from="1739599814401" duration="25000" />
-      <workItem from="1739599846716" duration="381000" />
-      <workItem from="1739608479120" duration="623000" />
-      <workItem from="1739609113955" duration="1432000" />
-      <workItem from="1739610555492" duration="548000" />
-      <workItem from="1739613417095" duration="2083000" />
-      <workItem from="1739792143053" duration="720000" />
-      <workItem from="1739986225912" duration="662000" />
-      <workItem from="1740217035465" duration="3508000" />
-      <workItem from="1740221251812" duration="1218000" />
-      <workItem from="1740656902918" duration="821000" />
-      <workItem from="1740807922335" duration="198000" />
-      <workItem from="1740808150918" duration="1867000" />
-      <workItem from="1740819353120" duration="636000" />
-      <workItem from="1741005497800" duration="13000" />
-      <workItem from="1742469707371" duration="366000" />
-      <workItem from="1742633541212" duration="84000" />
-      <workItem from="1742740412145" duration="12000" />
-      <workItem from="1743043104179" duration="16000" />
-      <workItem from="1743043236013" duration="629000" />
-      <workItem from="1743094141819" duration="42000" />
-      <workItem from="1743159227054" duration="18000" />
-      <workItem from="1744804925313" duration="86000" />
-      <workItem from="1744805062505" duration="714000" />
+      <updated>1744814662609</updated>
+      <workItem from="1744814663950" duration="2616000" />
+      <workItem from="1745418890412" duration="7741000" />
+      <workItem from="1745591204707" duration="98000" />
+      <workItem from="1745591503572" duration="3295000" />
+      <workItem from="1745927177430" duration="3045000" />
+      <workItem from="1747051029807" duration="3692000" />
+      <workItem from="1747111691301" duration="3107000" />
+      <workItem from="1748181692947" duration="9000" />
+      <workItem from="1748243934097" duration="58000" />
     </task>
     <servers />
   </component>
