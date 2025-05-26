@@ -5,53 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="157320b8-d186-473a-935b-0dd36df58860" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/config/JWTTokenHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/controllers/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/controllers/UserDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/RegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/RegistrationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/UserDetailsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/UserToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/dto/VerificationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/entity/Authority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/helper/VerificationCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/repository/AuthorityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/repository/UserDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/service/AuthorityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/service/CustomUserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/service/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/service/RegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/entity/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/Components/Navigation/Navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Components/Navigation/Navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/Components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Components/Navigation/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/Components/Sections/AnnouncementSection/AnnouncementSection.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/Components/Sections/BannerSection/BannerSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Components/Sections/BannerSection/BannerSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/Components/Sections/CategorySection/CategorySection.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/Pages/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Pages/Login/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/Pages/Register/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Pages/Register/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/Pages/VerifyCode/VerifyCode.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Pages/VerifyCode/VerifyCode.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/server.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/QuizOnlineApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/controller/QuestionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/model/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/repository/QuestionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/service/IQuestionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devlearn/quizonline/service/QuestionServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/devlearn/quizonline/QuizOnlineApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/devlearn/server/AuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/AuthenticationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/devlearn/server/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/devlearn/server/controllers/UserDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/controllers/UserDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/devlearn/server/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/devlearn/server/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +70,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/happy091/Desktop/Workspace/JAVA Project/quiz-webapp/server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/happy091/Desktop/Workspace/BaseNetwork/server&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -143,6 +107,8 @@
       <workItem from="1747111691301" duration="3107000" />
       <workItem from="1748181692947" duration="9000" />
       <workItem from="1748243934097" duration="58000" />
+      <workItem from="1748244751982" duration="1044000" />
+      <workItem from="1748264071203" duration="2649000" />
     </task>
     <servers />
   </component>

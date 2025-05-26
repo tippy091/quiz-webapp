@@ -59,9 +59,9 @@ const VerifyCode = ({ email }) => {
   }, []);
 
   return (
-    <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-lg">
+    <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-3xl">
       {!message && (
-        <>
+        <div>
           <h2 className="text-2xl font-bold mb-6 text-center">
             Verification Code
           </h2>
@@ -87,7 +87,7 @@ const VerifyCode = ({ email }) => {
             </button>
           </form>
           {error && <p className="text-xl text-red-600">{error}</p>}
-        </>
+        </div>
       )}
       {message && <p className="text-center text-lg">{message}</p>}
     </div>

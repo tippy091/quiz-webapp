@@ -41,8 +41,6 @@ public class UserDetailController {
                 .lastName(user.getLastName())
                 .phoneNumber(user.getPhoneNumber())
                 .email(user.getEmail())
-                .faculty(user.getFaculty())
-                .major(user.getMajor())
                 .authorityList(user.getAuthorities().toArray()).build();
 
         return new ResponseEntity<>(userDetailsDTO, HttpStatus.OK);

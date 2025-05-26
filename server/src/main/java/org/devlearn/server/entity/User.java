@@ -34,6 +34,8 @@ public class User implements UserDetails {
     @GeneratedValue
     private UUID Id;
 
+    private UUID companyID;
+
     @Column(nullable = false)
     private String firstName;
     @Column(nullable = false)

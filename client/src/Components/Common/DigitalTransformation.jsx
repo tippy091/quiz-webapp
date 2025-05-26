@@ -6,12 +6,12 @@ const DigitalTransformation = () => {
       version="1.1"
       id="Capa_1"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       x="0px"
       y="0px"
       className="h-[100px] w-full"
       viewBox="0 0 480 480"
-      xml:space="preserve"
+      xmlSpace="preserve"
     >
       <g>
         <g>

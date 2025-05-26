@@ -36,7 +36,7 @@ const Login = () => {
           }
         })
         .catch((error) => {
-          setError("Something went wrong");
+          setError(error);
         })
         .finally(() => {
           dispatch(setLoading(false));
@@ -75,19 +75,19 @@ const Login = () => {
 
         <form onSubmit={onSubmit} className="mt-6 space-y-4">
           <div>
-            <label name="email" className="block text-sm font-medium">
+            <label name="userName" className="block text-sm font-medium">
               Email
             </label>
             <input
               onChange={handleOnChange}
-              for="email"
-              type="email"
+              htmlFor="userName"
+              type="userName"
               // value={email}
               // onChange={(e) => setEmail(e.target.value)}
               className="w-full mt-1 px-3 py-2 border
              border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Email của bạn"
-              name="email"
+              name="userName"
               required
             />
           </div>
@@ -98,7 +98,7 @@ const Login = () => {
             </label>
             <input
               type="password"
-              for="password"
+              htmlFor="password"
               onChange={handleOnChange}
               name="password"
               className="w-full mt-1 px-3 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"

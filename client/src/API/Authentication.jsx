@@ -18,14 +18,15 @@ export const registerAPI = async (body) => {
 
 export const loginAPI = async (body) => {
   const url = API_BASE_URL + "/auth/login";
-
   try {
     const response = await axios.post(url, body, {
-      validateStatus: () => true,
+      validateStatus: () => true, // ✅ Đừng tự throw nếu status !== 2xx
     });
     return response;
-  } catch (error) {
-    throw new Error(error);
+  } catch (err) {
+    // Nếu là lỗi mạng (timeout, CORS, server chết)
+    console.error("Network or unexpected error:", err);
+    throw err;
   }
 };
 
